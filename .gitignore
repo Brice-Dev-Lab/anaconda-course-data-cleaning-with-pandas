@@ -1,0 +1,204 @@
+# =============================================================================
+# PYTHON + CONDA + JUPYTERLAB
+# =============================================================================
+
+
+# =============================================================================
+# Python - Bytecode and Cache
+# =============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+
+# =============================================================================
+# Conda and Python Virtual Environments
+# =============================================================================
+
+.conda/
+conda-meta/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Keep environment.yml tracked for reproducibility
+
+
+# =============================================================================
+# Jupyter Notebook / JupyterLab
+# =============================================================================
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.jupyter/
+.jupyterlab-workspace/
+*.nbconvert.ipynb
+
+# Keep *.ipynb files tracked
+
+
+# =============================================================================
+# IDEs - PyCharm, DataSpell, VS Code
+# =============================================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+.vscode/
+*.code-workspace
+
+# JetBrains metadata
+shelf/
+workspace.xml
+
+
+# =============================================================================
+# Environment Variables and Secrets
+# =============================================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+
+# =============================================================================
+# Data Science / Machine Learning - Datasets
+# =============================================================================
+
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# Preserve directory structure
+!data/.gitkeep
+
+# Optional: Ignore large data files globally
+# *.csv
+# *.parquet
+# *.feather
+# *.h5
+# *.hdf5
+
+
+# =============================================================================
+# Machine Learning - Models and Artifacts
+# =============================================================================
+
+models/
+artifacts/
+checkpoints/
+
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.h5
+*.keras
+
+
+# =============================================================================
+# Generated Outputs
+# =============================================================================
+
+outputs/
+results/
+reports/figures/
+
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+
+# =============================================================================
+# Testing and Coverage
+# =============================================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+hypothesis/
+
+
+# =============================================================================
+# Python Build and Distribution
+# =============================================================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*/
+
+
+# =============================================================================
+# Project Files to KEEP in Git
+# =============================================================================
+
+# README.md
+# environment.yml
+# environment.ci.yml
+# pyproject.toml
+# uv.lock
+# requirements.txt
+# *.py
+# *.ipynb
+# docs/
+# notebooks/
+# src/
+# tests/
