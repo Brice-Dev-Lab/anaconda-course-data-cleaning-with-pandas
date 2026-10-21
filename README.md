@@ -109,6 +109,9 @@ data-cleaning-pandas/
 │
 ├── data/
 │   ├── raw/
+│   │   ├── maintenance.csv
+│   │   ├── company_operations.db
+│   │   └── customers.json
 │   └── processed/
 │
 ├── notes/
